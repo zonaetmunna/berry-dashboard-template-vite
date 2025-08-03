@@ -8,9 +8,9 @@ import useLocalStorage from 'hooks/useLocalStorage';
 // initial state
 const initialState = {
   ...defaultConfig,
-  onChangeFontFamily: () => {},
-  onChangeBorderRadius: () => {},
-  onReset: () => {}
+  onChangeFontFamily: () => { },
+  onChangeBorderRadius: () => { },
+  onReset: () => { }
 };
 
 // ==============================|| CONFIG CONTEXT & PROVIDER ||============================== //
@@ -18,7 +18,7 @@ const initialState = {
 const ConfigContext = createContext(initialState);
 
 function ConfigProvider({ children }) {
-  const [config, setConfig] = useLocalStorage('berry-config-vite-ts', {
+  const [config, setConfig] = useLocalStorage('admin-panel-config-vite-ts', {
     fontFamily: initialState.fontFamily,
     borderRadius: initialState.borderRadius
   });

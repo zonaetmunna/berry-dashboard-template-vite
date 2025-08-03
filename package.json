@@ -1,5 +1,5 @@
 {
-  "name": "berry-material-react-js",
+  "name": "admin-panel-material-react-js",
   "version": "4.0.0",
   "private": true,
   "dependencies": {
@@ -68,5 +68,4 @@
     "prettier": "3.4.1",
     "sass": "1.81.1"
   }
-  
 }

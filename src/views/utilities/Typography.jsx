@@ -110,13 +110,13 @@ export default function Typography() {
                   variant="body2"
                   color="primary"
                   component={Link}
-                  href="https://berrydashboard.io"
+                  href="https://adminpanel.io"
                   target="_blank"
                   underline="hover"
                   gutterBottom
                   sx={{ display: 'block' }}
                 >
-                  https://berrydashboard.io
+                  https://adminpanel.io
                 </MuiTypography>
               </Grid>
             </Grid>
